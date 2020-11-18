@@ -1,0 +1,1 @@
+Este pacote conterá todas as classes de entidade necessárias à implementação do projeto.

@@ -1,0 +1,1 @@
+Este pacote conterá todas as classes necessárias à implementação da GUI do projeto (se houver).
