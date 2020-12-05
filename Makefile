@@ -1,4 +1,4 @@
-SOURCEPATH = src/main/java
+SOURCEPATH = src
 PACKAGE = br/com/ap22020/sistema_de_passagens
 JFLAGS = -sourcepath $(SOURCEPATH)
 JC = javac
