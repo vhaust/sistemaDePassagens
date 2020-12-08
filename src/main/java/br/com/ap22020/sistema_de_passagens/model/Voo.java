@@ -3,80 +3,96 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package sistema;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 /**
- *
+ * Classe que representa um Voo de um avi„o.
+ * 
  * @author Ot√°vio Camargo Marciano - 201900244
  */
 public class Voo {
-    private Assento assentosVoo[][];
-    private Aviao aviao;
-    private LocalDateTime horaDeSaida;
-    private LocalDateTime horaDeChegada;
-    private List<Cidade> paradas;
-    private Cidade destino;
 
-    public Voo(Assento[][] assentosVoo, Aviao aviao, LocalDateTime horaDeSaida, LocalDateTime horaDeChegada, List<Cidade> paradas, Cidade destino) {
-        this.assentosVoo = assentosVoo;
-        this.aviao = aviao;
-        this.horaDeSaida = horaDeSaida;
-        this.horaDeChegada = horaDeChegada;
-        this.paradas = paradas;
-        this.destino = destino;
-    }
+	private Assento assentosVoo[][];
+	private Aviao aviao;
+	private String horaDeSaida;
+	private String horaDeChegada;
+	private List<Cidade> paradas;
+	private Cidade destino;
+	private Cidade partida;
 
-    public Assento[][] getAssentosVoo() {
-        return assentosVoo;
-    }
+	public Cidade getPartida() {
+		return partida;
+	}
 
-    public void setAssentosVoo(Assento[][] assentosVoo) {
-        this.assentosVoo = assentosVoo;
-    }
+	public void setPartida(Cidade partida) {
+		this.partida = partida;
+	}
 
-    public Aviao getAviao() {
-        return aviao;
-    }
+	public Voo(Assento[][] assentosVoo, Aviao aviao, String horaDeSaida, String horaDeChegada, List<Cidade> paradas,
+			Cidade destino, Cidade partida) {
+		this.assentosVoo = assentosVoo;
+		this.aviao = aviao;
+		this.horaDeSaida = horaDeSaida;
+		this.horaDeChegada = horaDeChegada;
+		this.paradas = paradas;
+		this.destino = destino;
+		this.partida = partida;
+	}
 
-    public void setAviao(Aviao aviao) {
-        this.aviao = aviao;
-    }
+	public Assento[][] getAssentosVoo() {
+		return assentosVoo;
+	}
 
-    public LocalDateTime getHoraDeSaida() {
-        return horaDeSaida;
-    }
+	public void setAssentosVoo(Assento[][] assentosVoo) {
+		this.assentosVoo = assentosVoo;
+	}
 
-    public void setHoraDeSaida(LocalDateTime horaDeSaida) {
-        this.horaDeSaida = horaDeSaida;
-    }
+	public Aviao getAviao() {
+		return aviao;
+	}
 
-    public LocalDateTime getHoraDeChegada() {
-        return horaDeChegada;
-    }
+	public void setAviao(Aviao aviao) {
+		this.aviao = aviao;
+	}
 
-    public void setHoraDeChegada(LocalDateTime horaDeChegada) {
-        this.horaDeChegada = horaDeChegada;
-    }
+	public String getHoraDeSaida() {
+		return horaDeSaida;
+	}
 
-    public List<Cidade> getParadas() {
-        return paradas;
-    }
+	public void setHoraDeSaida(String horaDeSaida) {
+		this.horaDeSaida = horaDeSaida;
+	}
 
-    public void setParadas(List<Cidade> paradas) {
-        this.paradas = paradas;
-    }
+	public String getHoraDeChegada() {
+		return horaDeChegada;
+	}
 
-    public Cidade getDestino() {
-        return destino;
-    }
+	public void setHoraDeChegada(String horaDeChegada) {
+		this.horaDeChegada = horaDeChegada;
+	}
 
-    public void setDestino(Cidade destino) {
-        this.destino = destino;
-    }
-    
+	public List<Cidade> getParadas() {
+		return paradas;
+	}
+
+	public void setParadas(List<Cidade> paradas) {
+		this.paradas = paradas;
+	}
+
+	public Cidade getDestino() {
+		return destino;
+	}
+
+	public void setDestino(Cidade destino) {
+		this.destino = destino;
+	}
+
+	public void registraAssento(int linha, int coluna) {
+		assentosVoo[linha][coluna] = new Assento(true, horaDeChegada);
+		assentosVoo[linha][coluna].setPosicao(String.format("Assento %d.%d", linha, coluna));
+	}
 
 }

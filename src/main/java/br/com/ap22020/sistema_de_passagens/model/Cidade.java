@@ -3,47 +3,55 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package sistema;
 
 /**
- *
+ * Classe que representa uma cidade.
+ * 
  * @author Ot√°vio Camargo Marciano - 201900244
  */
 public class Cidade {
-    private String nome;
-    private String estado;
-    private CodigoIATA codigo;
 
-    public Cidade(String nome, String estado, CodigoIATA codigo) {
-        this.nome = nome;
-        this.estado = estado;
-        this.codigo = codigo;
-    }
+	private String nome;
+	private String estado;
+	private CodigoIATA codigo;
 
-    public String getNome() {
-        return nome;
-    }
+	/**
+	 * Construtor que inicializa o objeto Cidade a partir dos par‚metros nome,
+	 * estado e codigo(CodigoIATA).
+	 * 
+	 * @param nome
+	 * @param estado
+	 * @param codigo
+	 */
+	public Cidade(String nome, String estado, CodigoIATA codigo) {
+		this.nome = nome;
+		this.estado = estado;
+		this.codigo = codigo;
+	}
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+	public String getNome() {
+		return nome;
+	}
 
-    public String getEstado() {
-        return estado;
-    }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
+	public String getEstado() {
+		return estado;
+	}
 
-    public CodigoIATA getCodigo() {
-        return codigo;
-    }
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
 
-    public void setCodigo(CodigoIATA codigo) {
-        this.codigo = codigo;
-    }
-    
+	public CodigoIATA getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(CodigoIATA codigo) {
+		this.codigo = codigo;
+	}
 
 }

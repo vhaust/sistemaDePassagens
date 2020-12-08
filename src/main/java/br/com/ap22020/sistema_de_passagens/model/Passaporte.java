@@ -3,46 +3,62 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package sistema;
 
 /**
- *
+ * Classe que representa um passaporte de uma pessoa.
+ * 
  * @author Ot√°vio Camargo Marciano - 201900244
  */
 public class Passaporte {
-    private String paisEmissor;
-    private String numPassaporte;
-    private boolean statusPassaporte;
 
-    public Passaporte(String paisEmissor, String numPassaporte, boolean statusPassaporte) {
-        this.paisEmissor = paisEmissor;
-        this.numPassaporte = numPassaporte;
-        this.statusPassaporte = statusPassaporte;
-    }
+	private String paisEmissor;
+	private String numPassaporte;
+	private boolean statusPassaporte;
 
-    public String getPaisEmissor() {
-        return paisEmissor;
-    }
+	/**
+	 * Construtor que inicializa o objeto Passaporte sem par‚metros.
+	 */
+	public Passaporte() {
 
-    public void setPaisEmissor(String paisEmissor) {
-        this.paisEmissor = paisEmissor;
-    }
+	}
 
-    public String getNumPassaporte() {
-        return numPassaporte;
-    }
+	/**
+	 * Construtor que inicializa o objeto Passaporte com os par‚metros paisEmissor,
+	 * numPassaporte e statusPassaporte.
+	 * 
+	 * @param paisEmissor
+	 * @param numPassaporte
+	 * @param statusPassaporte
+	 */
+	public Passaporte(String paisEmissor, String numPassaporte, boolean statusPassaporte) {
+		this.paisEmissor = paisEmissor;
+		this.numPassaporte = numPassaporte;
+		this.statusPassaporte = statusPassaporte;
+	}
 
-    public void setNumPassaporte(String numPassaporte) {
-        this.numPassaporte = numPassaporte;
-    }
+	public String getPaisEmissor() {
+		return paisEmissor;
+	}
 
-    public boolean isStatusPassaporte() {
-        return statusPassaporte;
-    }
+	public void setPaisEmissor(String paisEmissor) {
+		this.paisEmissor = paisEmissor;
+	}
 
-    public void setStatusPassaporte(boolean statusPassaporte) {
-        this.statusPassaporte = statusPassaporte;
-    }
-    
+	public String getNumPassaporte() {
+		return numPassaporte;
+	}
+
+	public void setNumPassaporte(String numPassaporte) {
+		this.numPassaporte = numPassaporte;
+	}
+
+	public boolean isStatusPassaporte() {
+		return statusPassaporte;
+	}
+
+	public void setStatusPassaporte(boolean statusPassaporte) {
+		this.statusPassaporte = statusPassaporte;
+	}
+
 }
