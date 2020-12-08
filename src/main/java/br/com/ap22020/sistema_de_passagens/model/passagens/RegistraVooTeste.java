@@ -5,11 +5,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import sistema.Assento;
-import sistema.Aviao;
-import sistema.Cidade;
-import sistema.CodigoIATA;
-import sistema.Voo;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Assento;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Aviao;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Cidade;
+import sistema.br.com.ap22020.sistema_de_passagens.model.CodigoIATA;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Voo;
 
 /**
  * Classe que registra voos.

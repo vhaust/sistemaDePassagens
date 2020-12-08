@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-import sistema.Cartao;
-import sistema.Cidade;
-import sistema.ContasTestes;
-import sistema.Passagem;
-import sistema.PassagemInteira;
-import sistema.PassagemMeia;
-import sistema.Passaporte;
-import sistema.Pessoa;
-import sistema.Voo;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Cartao;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Cidade;
+import sistema.br.com.ap22020.sistema_de_passagens.model.ContasTestes;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Passagem;
+import sistema.br.com.ap22020.sistema_de_passagens.model.PassagemInteira;
+import sistema.br.com.ap22020.sistema_de_passagens.model.PassagemMeia;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Passaporte;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Pessoa;
+import sistema.br.com.ap22020.sistema_de_passagens.model.Voo;
 
 /**
  * Classe Main
