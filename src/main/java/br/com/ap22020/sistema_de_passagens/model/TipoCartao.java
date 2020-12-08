@@ -6,7 +6,7 @@
 package br.com.ap22020.sistema_de_passagens;
 
 /**
- * Tipos de cartıes que podem ser usados.
+ * Tipos de cart√µes que podem ser usados.
  * 
  * @author ocmma
  */
@@ -16,7 +16,7 @@ public enum TipoCartao {
 	private final String tipo;
 
 	/**
-	 * Tipo do Cart„o
+	 * Tipo do Cart√£o
 	 * 
 	 * @param tipo
 	 */
