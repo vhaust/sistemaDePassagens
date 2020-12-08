@@ -1,4 +1,4 @@
-package sistema.passagens;
+package br.com.ap22020.sistema_de_passagens.passagens;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

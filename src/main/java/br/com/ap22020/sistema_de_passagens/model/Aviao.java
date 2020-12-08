@@ -1,4 +1,4 @@
-package sistema;
+package br.com.ap22020.sistema_de_passagens;
 
 /**
  * Classe que representa um Avião
