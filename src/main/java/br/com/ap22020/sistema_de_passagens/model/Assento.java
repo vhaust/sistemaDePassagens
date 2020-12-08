@@ -1,4 +1,4 @@
-package br.com.ap22020.sistema_de_passagens;
+package br.com.ap22020.sistema_de_passagens.model;
 
 /**
  * Classe que representa um assento no Voo

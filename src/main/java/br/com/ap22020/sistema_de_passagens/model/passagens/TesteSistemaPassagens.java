@@ -1,4 +1,4 @@
-package br.com.ap22020.sistema_de_passagens.passagens;
+package br.com.ap22020.sistema_de_passagens.model.passagens;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-import sistema.br.com.ap22020.sistema_de_passagens.model.Cartao;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Cidade;
-import sistema.br.com.ap22020.sistema_de_passagens.model.ContasTestes;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Passagem;
-import sistema.br.com.ap22020.sistema_de_passagens.model.PassagemInteira;
-import sistema.br.com.ap22020.sistema_de_passagens.model.PassagemMeia;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Passaporte;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Pessoa;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Voo;
+import br.com.ap22020.sistema_de_passagens.model.Cartao;
+import br.com.ap22020.sistema_de_passagens.model.Cidade;
+import br.com.ap22020.sistema_de_passagens.model.ContasTestes;
+import br.com.ap22020.sistema_de_passagens.model.Passagem;
+import br.com.ap22020.sistema_de_passagens.model.PassagemInteira;
+import br.com.ap22020.sistema_de_passagens.model.PassagemMeia;
+import br.com.ap22020.sistema_de_passagens.model.Passaporte;
+import br.com.ap22020.sistema_de_passagens.model.Pessoa;
+import br.com.ap22020.sistema_de_passagens.model.Voo;
 
 /**
  * Classe Main

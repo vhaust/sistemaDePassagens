@@ -1,15 +1,15 @@
-package br.com.ap22020.sistema_de_passagens.passagens;
+package br.com.ap22020.sistema_de_passagens.model.passagens;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import sistema.br.com.ap22020.sistema_de_passagens.model.Assento;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Aviao;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Cidade;
-import sistema.br.com.ap22020.sistema_de_passagens.model.CodigoIATA;
-import sistema.br.com.ap22020.sistema_de_passagens.model.Voo;
+import br.com.ap22020.sistema_de_passagens.model.Assento;
+import br.com.ap22020.sistema_de_passagens.model.Aviao;
+import br.com.ap22020.sistema_de_passagens.model.Cidade;
+import br.com.ap22020.sistema_de_passagens.model.CodigoIATA;
+import br.com.ap22020.sistema_de_passagens.model.Voo;
 
 /**
  * Classe que registra voos.

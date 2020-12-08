@@ -30,7 +30,7 @@ default: compile
 compile: $(CLASSES:.java=.class)
 
 run: compile
-	java -classpath $(SOURCEPATH) TesteSistemaPassagens
+	java -classpath $(SOURCEPATH)/$(PACKAGE)/model/passagens TesteSistemaPassagens
 
 clean: $(CLASSES:.java=.class)
 	$(RM) $(CLASSES:.java=.class)

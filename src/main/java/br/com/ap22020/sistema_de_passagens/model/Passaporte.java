@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.ap22020.sistema_de_passagens;
+package br.com.ap22020.sistema_de_passagens.model;
 
 /**
  * Classe que representa um passaporte de uma pessoa.

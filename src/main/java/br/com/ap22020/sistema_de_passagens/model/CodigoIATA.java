@@ -1,4 +1,4 @@
-package br.com.ap22020.sistema_de_passagens;
+package br.com.ap22020.sistema_de_passagens.model;
 /**
  * 
  * Codigos IATA que podem ser usados
