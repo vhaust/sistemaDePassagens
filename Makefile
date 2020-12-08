@@ -4,7 +4,7 @@ JFLAGS = -sourcepath $(SOURCEPATH)
 JC = javac
 .SUFFIXES: .java .class
 .java.class:
-    $(JC) $(JFLAGS) $*.java
+	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
     $(SOURCEPATH)/$(PACKAGE)/model/Assento.java \
@@ -30,7 +30,7 @@ default: compile
 compile: $(CLASSES:.java=.class)
 
 run: compile
-    java -classpath $(SOURCEPATH) TesteSistemaPassagens
+	java -classpath $(SOURCEPATH) TesteSistemaPassagens
 
 clean: $(CLASSES:.java=.class)
-    $(RM) $(CLASSES:.java=.class)
+	$(RM) $(CLASSES:.java=.class)
